@@ -15,10 +15,10 @@ body{
     margin:10px;
 }
 
-.info{
-    margin-top:35px;
-}
-
 .info p{
     margin-bottom:2px;
+}
+
+.main-content{
+    margin-top:20px;
 }
