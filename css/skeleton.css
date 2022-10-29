@@ -406,12 +406,7 @@ there.
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-  .info{
-    margin-top:35px;
-}
-
-}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}

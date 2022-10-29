@@ -1,5 +1,6 @@
 body{
     background-color: #FCFCFC;
+    min-height: 99vh;
 }
 
 *{
@@ -11,14 +12,36 @@ body{
 }
 
 .logo{
-    max-height: 10rem;
-    margin:10px;
+    max-height: 20rem;
+    margin-top:18px;
+    margin-bottom:18px;
 }
 
 .info p{
     margin-bottom:2px;
 }
 
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+
 .main-content{
-    margin-top:20px;
+    margin-top:35px;
+    text-align:center;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+}
+
+.vertical-center
+{
+    display:flex;
+    min-height: 99vh;
+    justify-content: center;
+    flex-direction: column;
 }
